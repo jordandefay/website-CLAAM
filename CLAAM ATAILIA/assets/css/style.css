@@ -1,0 +1,327 @@
+﻿/*=============================================================
+    Authour URI: www.binarytheme.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+
+    ========================================================  */
+
+/* =============================================================
+   GENERAL STYLES
+ ============================================================ */
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+    font-size: 14px;
+    background-attachment: fixed;
+    background-color: #006D77;
+
+}
+
+.set-pad {
+    padding-top:35px;
+}
+.set-row-pad {
+    padding-top:30px;
+    padding-bottom:50px;
+}
+/*=====================================
+  NAVBAR STYLES
+    ===================================*/
+
+.logo-custom {
+    max-height: 100px;
+}
+
+#menu {
+    background-color: #006D77;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    min-height: 70px;
+}
+
+
+.navbar-inverse {
+    border-color: transparent;
+}
+
+    .navbar-inverse .navbar-nav > li > a {
+        padding: 50px 10px;
+    }
+
+
+/*=====================================
+  HOME STYLES
+    ===================================*/
+.home-sec {
+    padding-top: 10px;
+    padding-bottom: 60px;
+    background: url(../img/header.jpg) no-repeat center center;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #000;
+    background-attachment: fixed;
+}
+
+    .home-sec .overlay {
+        background: rgba(237,246,249, 0.80);
+        min-height: 500px;
+    }
+
+    .home-sec h1 {
+        color: #000;
+        font-weight: 900;
+        font-size: 50px;
+        text-transform: uppercase;
+        padding-top:0px;
+        padding-bottom: 4px;
+
+    }
+
+    .home-sec h3 {
+    text-transform: uppercase;
+    padding: 50px;
+    font-size: 35px; /* Vous pouvez ajuster la taille de la police selon vos besoins */
+}
+
+
+
+.set-flexi {
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
+    -o-box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
+    background-color: transparent;
+    border: 0px solid #000;
+    padding-top: 120px;
+}
+
+.flex-control-nav {
+    display: none!important;
+    background-color: #006D77;
+}
+
+.set-flexi a {
+    margin: 5px;
+    background-color: #C19B53;
+    border-radius: 20px;
+}
+
+
+.set-flexi a:hover {
+  background-color: #C19B53;
+}
+
+a.btn:hover {
+    background-color: #006D77 !important
+}
+/*=====================================
+  TAG LINE STYLES
+    ===================================*/
+
+.tag-line {
+    background-color: : #E2D19A;
+    color: #000;
+}
+
+    .tag-line h2 {
+        font-size: 20px;
+        font-weight: 900;
+        padding: 5px 10px 10px 5px;
+        color:  #EDF6F9;
+    }
+
+        .tag-line h2 > i {
+            margin-left: 8px;
+            margin-right: 8px;
+        }
+/*=====================================
+  HEADER LINE STYLES
+    ===================================*/
+.header-line {
+    font-weight: 900;
+    font-size: 25px;
+    padding-bottom: 5px;
+    padding-top: 25px;
+    color: #fff;
+    background-color: #006D77;
+}
+
+h1::after {
+    content: " ";
+    border: solid 2px #C19B53;
+    display: block;
+    width: 200px;
+    margin: 12px auto;
+}
+
+.row.text-center p {
+  color: #fff;
+}
+/*=====================================
+  ABOUT STYLES
+  ===================================*/
+.about-div {
+    padding: 50px;
+    background-color: #006D77;
+}
+
+.about-div p {
+  color: #fff;
+}
+
+.icon-round-border {
+    border: 10px double #C19B53;
+    color: #C19B53;
+    text-align: center;
+    padding-top: 15px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+    .icon-round-border:hover {
+        color: #fff;
+        border: 10px double #fff;
+        background-color: #1A94C4;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+    }
+
+.about-div hr {
+    border: 1px solid #C19B53;
+}
+
+.about-div h3 {
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color : #fff;
+}
+
+.about-div p {
+    padding-top: 10px;
+}
+
+.btn-set {
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    margin-bottom: 20px;
+    background-color: #C19B53;
+    color : #fff;
+    border-radius: 10px;
+}
+
+.btn-set:hover {
+  background-color: #006D77 !important;
+}
+/*=====================================
+  FACULTY STYLES
+  ===================================*/
+#faculty-sec {
+    background-color: #EDF6F9;
+    color: #000;
+}
+
+    #faculty-sec .header-line {
+        background-color: #EDF6F9;
+        color: #000;
+    }
+.faculty-div h4 {
+    line-height:30px;
+    font-weight:700;
+}
+.faculty-div {
+    padding: 30px;
+}
+
+    .faculty-div hr {
+        border: 1px solid #C19B53;
+    }
+
+    .faculty-div h3 {
+        font-size: 25px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .faculty-div p {
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+
+    .faculty-div img {
+        border: 10px double #fff;
+    }
+
+/*=====================================
+  CONTACT STYLES
+  ===================================*/
+#contact-sec {
+    padding-top: 10px;
+    padding-bottom: 60px;
+    background: url(../img/contact.jpg) no-repeat center center;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+#contact-sec .overlay {
+        background: rgba(0, 0, 0, 0.45);
+        min-height: 600px;
+    }
+
+    #contact-sec h1 {
+        color:#000;
+        background-color: #006D77;
+    }
+#contact-sec .form-control{
+    background-color:rgba(255, 255, 255, 0);
+    color:#fff;
+}
+::placeholder {
+    color: #FFF!important;
+}
+.my-custom-button {
+    margin: 5px;
+    background-color: #C19B53;
+    border-radius: 20px;
+    color: #FFF;
+    text-align: center;
+    padding: 10px 20px; /* Ajustez les valeurs de rembourrage selon vos besoins */
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    font-size: 16px; /* Ajustez la taille de police selon vos besoins */
+}
+
+.my-custom-button:hover {
+    background-color: #006D77; /* Change la couleur de fond au survol */
+}
+/*=====================================
+  Footer STYLES
+  ===================================*/
+#footer {
+    padding:5px 20px;
+    background-color:#006D77;
+    text-align:right;
+    color:#000;
+    font-size:15px;
+}
