@@ -108,9 +108,9 @@
           slider.bind('mousewheel', function(event, delta, deltaX, deltaY) {
             event.preventDefault();
             var target = (delta < 0) ? slider.getTarget('next') : slider.getTarget('prev');
-            slider.flexAnimate(target, slider.vars.pauseOnAction);
-          });
-        }
+        slider.flexAnimate(target, slider.vars.pauseOnAction);
+        }, { passive: true });
+    }
 
         // PAUSEPLAY
         if (slider.vars.pausePlay) methods.pausePlay.setup();
@@ -394,7 +394,7 @@
           accDx = 0;
 
         if(!msGesture){
-            el.addEventListener('touchstart', onTouchStart, false);
+            element.addEventListener('touchstart', handleTouchStart, { passive: true });
 
             function onTouchStart(e) {
               if (slider.animating) {

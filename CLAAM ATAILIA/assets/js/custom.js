@@ -41,7 +41,7 @@
              ======================================*/
              $('#main-section').flexslider({
                  animation: "fade", //String: Select your animation type, "fade" or "slide"
-                 slideshowSpeed: 3000,           //Integer: Set the speed of the slideshow cycling, in milliseconds
+                 slideshowSpeed: 5000,           //Integer: Set the speed of the slideshow cycling, in milliseconds
                  animationSpeed: 1000,           //Integer: Set the speed of animations, in milliseconds
                  startAt: 0,    //Integer: The slide that the slider should start on. Array notation (0 = first slide)
 

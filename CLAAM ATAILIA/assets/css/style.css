@@ -21,6 +21,14 @@ body {
 
 }
 
+@font-face {
+  font-family: 'Open Sans';
+  src: url('https://fonts.gstatic.com/s/opensans/v36/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 .set-pad {
     padding-top:35px;
 }
@@ -50,10 +58,16 @@ body {
     border-color: transparent;
 }
 
-    .navbar-inverse .navbar-nav > li > a {
+   .navbar-inverse .navbar-nav > li > a {
         padding: 50px 10px;
+        color: #fff;
+        transition: color 0.3s;
     }
 
+
+    .navbar-inverse .navbar-nav > li > a:hover {
+      color: #C19B53;
+    }
 
 /*=====================================
   HOME STYLES
@@ -64,7 +78,7 @@ body {
     background: url(../img/header.jpg) no-repeat center center;
     padding: 0;
     -webkit-background-size: cover;
-    background-size: cover;
+    background-size: 100%;
     color: #000;
     background-attachment: fixed;
 }
@@ -274,7 +288,7 @@ h1::after {
 #contact-sec {
     padding-top: 10px;
     padding-bottom: 60px;
-    background: url(../img/contact.jpg) no-repeat center center;
+    background: url(../img/contact.webp) no-repeat center center;
     padding: 0;
     -webkit-background-size: cover;
     background-size: cover;
